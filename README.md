@@ -1,26 +1,61 @@
-#  Data Preprocessing for Machine Learning
+# Machine Learning Internship Projects
 
-##  Project Overview
-This project demonstrates essential data preprocessing steps required before training a machine learning model.
+## Internship
+**Codveda Technology – Machine Learning Internship**
 
-##  Tasks Performed
--  Handled missing values using mean imputation
--  Processed dataset with proper formatting
--  Split data into training and testing sets
--  Standardized numerical features using StandardScaler
+---
 
-##  Dataset
-- House Prediction Dataset (Boston Housing style dataset)
+# Project Overview
 
-##  Tools Used
+This repository contains Machine Learning projects completed as part of the Codveda Technology Internship Program. The projects demonstrate data preprocessing, regression, and classification techniques using Python and Scikit-learn.
+
+---
+
+# Task 1: Data Preprocessing for Machine Learning
+
+## Objective
+
+Prepare raw data for machine learning by applying common preprocessing techniques.
+
+## Tasks Performed
+
+- Handled missing values using mean imputation
+- Processed and structured raw data
+- Split data into training and testing datasets
+- Standardized numerical features using StandardScaler
+
+## Tools Used
+
 - Python
 - Pandas
 - Scikit-learn
 
-##  Output
-- Cleaned and preprocessed dataset ready for machine learning
-- Training set shape: (404, 13)
-- Testing set shape: (101, 13)
+## Output
 
-##  Author
-MBUYELO NYATHI
+- Cleaned dataset ready for machine learning
+- Training data shape: (404, 13)
+- Testing data shape: (101, 13)
+
+---
+
+# Task 2: Simple Linear Regression Model
+
+## Objective
+
+Build a Linear Regression model to predict house prices using housing data.
+
+## Tools Used
+
+- Python
+- Pandas
+- Scikit-learn
+
+## Model Evaluation
+
+### Mean Squared Error (MSE)
+
+```text
+24.29
+
+## Author
+**Mbuyelo Nyathi**
