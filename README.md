@@ -7,7 +7,7 @@
 
 # Project Overview
 
-This repository contains Machine Learning projects completed as part of the Codveda Technology Internship Program. The projects demonstrate data preprocessing, regression, and classification techniques using Python and Scikit-learn.
+This repository contains Machine Learning projects completed as part of the Codveda Technology Internship Program. The projects cover data preprocessing, regression, classification, and ensemble learning techniques using Python and Scikit-learn.
 
 ---
 
@@ -15,11 +15,11 @@ This repository contains Machine Learning projects completed as part of the Codv
 
 ## Objective
 
-Prepare raw data for machine learning by applying common preprocessing techniques.
+Prepare raw data for machine learning by applying preprocessing techniques.
 
 ## Tasks Performed
 
-- Handled missing values using mean imputation
+- Handled missing values
 - Processed and structured raw data
 - Split data into training and testing datasets
 - Standardized numerical features using StandardScaler
@@ -30,7 +30,7 @@ Prepare raw data for machine learning by applying common preprocessing technique
 - Pandas
 - Scikit-learn
 
-## Output
+## Results
 
 - Cleaned dataset ready for machine learning
 - Training data shape: (404, 13)
@@ -42,7 +42,7 @@ Prepare raw data for machine learning by applying common preprocessing technique
 
 ## Objective
 
-Build a Linear Regression model to predict house prices using housing data.
+Build a Linear Regression model to predict house prices.
 
 ## Tools Used
 
@@ -50,50 +50,60 @@ Build a Linear Regression model to predict house prices using housing data.
 - Pandas
 - Scikit-learn
 
-## Model Evaluation
+## Results
 
 ### Mean Squared Error (MSE)
 
-```text
 24.29
 
-# Task 4: Decision Tree Classification
+### R-Squared Score (R²)
+
+0.67
+
+## Key Findings
+
+- RM (number of rooms) positively affects house prices.
+- LSTAT negatively affects house prices.
+- The model explains approximately 67% of the variation in housing prices.
+
+---
+
+# Task 3: Logistic Regression for Binary Classification
 
 ## Objective
 
-Build a Decision Tree classifier using the Iris dataset and evaluate its performance.
+Predict customer churn using Logistic Regression.
+
+## Dataset
+
+- churn-bigml-80.csv
+- churn-bigml-20.csv
 
 ## Tools Used
 
 - Python
+- Pandas
 - Scikit-learn
-- Matplotlib
 
-## Dataset
-
-Iris Dataset (built into Scikit-learn)
-
-## Model Evaluation
+## Results
 
 ### Accuracy
 
-100%
+85.16%
 
-### F1 Score
+### Precision
 
-100%
+44.44%
 
-## Key Findings
+### Recall
 
-- Successfully trained a Decision Tree Classifier.
-- Visualized the tree structure.
-- Applied pruning using max_depth=3 to reduce overfitting.
-- Achieved perfect classification performance on the test dataset.
+16.84%
 
-## Visualization
+### Confusion Matrix
 
-The Decision Tree was visualized using Matplotlib, showing the decision rules used to classify iris flower species.
-
+```text
+[[552  20]
+ [ 79  16]]
 
 ## Author
 **Mbuyelo Nyathi**
