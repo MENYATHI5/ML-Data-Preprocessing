@@ -1,61 +1,92 @@
-# Machine Learning Internship Projects
+# Machine Learning Internship Portfolio
 
-## Internship
-**Codveda Technology – Machine Learning Internship**
+## Codveda Technology Internship
 
 ---
 
-# Project Overview
+## Overview
 
+<<<<<<< HEAD
 This repository contains Machine Learning projects completed as part of the Codveda Technology Internship Program. The projects cover data preprocessing, regression, classification, and ensemble learning techniques using Python and Scikit-learn.
+=======
+This repository contains machine learning projects completed during the Codveda Technology Machine Learning Internship.
+
+The projects cover the complete machine learning workflow, including:
+
+- Data preprocessing
+- Regression models
+- Classification models
+- Ensemble learning
+- Model evaluation
+- Feature importance analysis
+
+All projects were implemented using Python and Scikit-learn.
+>>>>>>> 7c90040 (Completed Level 3 machine learning projects)
 
 ---
 
-# Task 1: Data Preprocessing for Machine Learning
+# Project 1: Data Preprocessing for Machine Learning
 
 ## Objective
 
+<<<<<<< HEAD
 Prepare raw data for machine learning by applying preprocessing techniques.
+=======
+Prepare raw data for machine learning by cleaning, scaling, and transforming the dataset.
+>>>>>>> 7c90040 (Completed Level 3 machine learning projects)
 
-## Tasks Performed
+## Tasks Completed
 
 - Handled missing values
+<<<<<<< HEAD
 - Processed and structured raw data
 - Split data into training and testing datasets
 - Standardized numerical features using StandardScaler
+=======
+- Standardized numerical features
+- Split data into training and testing sets
+- Prepared data for model training
+>>>>>>> 7c90040 (Completed Level 3 machine learning projects)
 
-## Tools Used
+## Technologies Used
 
 - Python
 - Pandas
 - Scikit-learn
 
+<<<<<<< HEAD
 ## Results
+=======
+## Outcome
+>>>>>>> 7c90040 (Completed Level 3 machine learning projects)
 
-- Cleaned dataset ready for machine learning
-- Training data shape: (404, 13)
-- Testing data shape: (101, 13)
+Successfully transformed raw data into a machine-learning-ready dataset.
 
 ---
 
-# Task 2: Simple Linear Regression Model
+# Project 2: Simple Linear Regression Model
 
 ## Objective
 
 Build a Linear Regression model to predict house prices.
 
-## Tools Used
+## Technologies Used
 
 - Python
 - Pandas
 - Scikit-learn
 
+<<<<<<< HEAD
 ## Results
+=======
+## Evaluation Results
+>>>>>>> 7c90040 (Completed Level 3 machine learning projects)
 
 ### Mean Squared Error (MSE)
 
 24.29
 
+<<<<<<< HEAD
 ### R-Squared Score (R²)
 
 0.67
@@ -107,3 +138,6 @@ Predict customer churn using Logistic Regression.
 
 ## Author
 **Mbuyelo Nyathi**
+=======
+**Author:** Mbuyelo Nyathi
+>>>>>>> 7c90040 (Completed Level 3 machine learning projects)
