@@ -57,5 +57,43 @@ Build a Linear Regression model to predict house prices using housing data.
 ```text
 24.29
 
+# Task 4: Decision Tree Classification
+
+## Objective
+
+Build a Decision Tree classifier using the Iris dataset and evaluate its performance.
+
+## Tools Used
+
+- Python
+- Scikit-learn
+- Matplotlib
+
+## Dataset
+
+Iris Dataset (built into Scikit-learn)
+
+## Model Evaluation
+
+### Accuracy
+
+100%
+
+### F1 Score
+
+100%
+
+## Key Findings
+
+- Successfully trained a Decision Tree Classifier.
+- Visualized the tree structure.
+- Applied pruning using max_depth=3 to reduce overfitting.
+- Achieved perfect classification performance on the test dataset.
+
+## Visualization
+
+The Decision Tree was visualized using Matplotlib, showing the decision rules used to classify iris flower species.
+
+
 ## Author
 **Mbuyelo Nyathi**
